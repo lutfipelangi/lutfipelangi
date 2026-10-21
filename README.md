@@ -75,7 +75,7 @@
   </g>
 
   <!-- Title -->
-  <text x="350" y="35" text-anchor="middle" font-family="monospace" font-size="14" fill="#00FF88" letter-spacing="4" opacity="0.8">NEURAL NETWORK</text>
+  <text x="350" y="35" text-anchor="middle" font-family="monospace" font-size="14" fill="#00FF88" letter-spacing="4" opacity="0.8"></text>
 
   <!-- CONNECTIONS with animated dashes -->
   <g stroke="#00FF88" stroke-width="1" fill="none" opacity="0.3">
