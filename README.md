@@ -28,10 +28,7 @@
 
   <br>
 
-  <!-- STATISTIK GITHUB -->
-  <a href="https://github.com/lutfipelangi">
-    <img src="https://github-readme-stats.vercel.app/api?username=lutfipelangi![Uploading image.png…]()
-&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=39FF14&text_color=ffffff&icon_color=39FF14&border_color=39FF14" alt="GitHub Stats" height="180" />
+ 
   
 
   <br><br>
