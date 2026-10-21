@@ -1,795 +1,472 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shahid Azam - Data Scientist</title>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&display=swap');
-
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-
-  body {
-    background: #0a0e17;
-    color: #e0e0e0;
-    font-family: 'Rajdhani', sans-serif;
-    overflow-x: hidden;
-    min-height: 100vh;
-  }
-
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  /* ===== HEADER SECTION ===== */
-  .header-section {
-    background: linear-gradient(135deg, #0d1117 0%, #0a1628 50%, #0d1117 100%);
-    border: 2px solid #00ff88;
-    border-radius: 12px;
-    padding: 40px;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 20px;
-    box-shadow: 0 0 30px rgba(0, 255, 136, 0.15), inset 0 0 30px rgba(0, 255, 136, 0.05);
-  }
-
-  .header-section::before {
-    content: '';
-    position: absolute;
-    top: -2px; left: -2px; right: -2px; bottom: -2px;
-    background: linear-gradient(45deg, #00ff88, transparent, #00ff88, transparent);
-    background-size: 400% 400%;
-    animation: borderGlow 4s ease infinite;
-    z-index: -1;
-    border-radius: 14px;
-  }
-
-  @keyframes borderGlow {
-    0%, 100% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-  }
-
-  .header-content {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .header-text { flex: 1; }
-
-  .header-text h1 {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 3.5rem;
-    font-weight: 900;
-    color: #ffffff;
-    text-shadow: 0 0 20px rgba(0, 255, 136, 0.5), 0 0 40px rgba(0, 255, 136, 0.3);
-    letter-spacing: 4px;
-    margin-bottom: 10px;
-  }
-
-  .header-text .title {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 1.5rem;
-    color: #00ff88;
-    letter-spacing: 6px;
-    margin-bottom: 20px;
-    position: relative;
-    display: inline-block;
-  }
-
-  .header-text .title::after {
-    content: '|';
-    animation: blink 1s step-end infinite;
-    color: #00ff88;
-  }
-
-  @keyframes blink {
-    50% { opacity: 0; }
-  }
-
-  .skills-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 15px;
-  }
-
-  .skill-tag {
-    background: rgba(0, 255, 136, 0.08);
-    border: 1px solid rgba(0, 255, 136, 0.4);
-    color: #00ff88;
-    padding: 6px 16px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-family: 'Share Tech Mono', monospace;
-    transition: all 0.3s ease;
-    cursor: default;
-  }
-
-  .skill-tag:hover {
-    background: rgba(0, 255, 136, 0.2);
-    box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
-    transform: translateY(-2px);
-  }
-
-  .header-image {
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
-    border: 3px solid #00ff88;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0 0 30px rgba(0, 255, 136, 0.3);
-    flex-shrink: 0;
-  }
-
-  .header-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .header-image::after {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    border: 2px solid #00ff88;
-    border-radius: 50%;
-    animation: pulse-ring 2s ease-out infinite;
-  }
-
-  @keyframes pulse-ring {
-    0% { transform: scale(1); opacity: 1; }
-    100% { transform: scale(1.15); opacity: 0; }
-  }
-
-  /* ===== AI SECTION ===== */
-  .ai-section {
-    background: linear-gradient(180deg, #0d1117 0%, #0a1628 100%);
-    border: 2px solid #00ff88;
-    border-radius: 12px;
-    padding: 40px;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 0 30px rgba(0, 255, 136, 0.15), inset 0 0 30px rgba(0, 255, 136, 0.05);
-  }
-
-  .ai-section::before {
-    content: '';
-    position: absolute;
-    top: -2px; left: -2px; right: -2px; bottom: -2px;
-    background: linear-gradient(45deg, #00ff88, transparent, #00ff88, transparent);
-    background-size: 400% 400%;
-    animation: borderGlow 4s ease infinite;
-    z-index: -1;
-    border-radius: 14px;
-  }
-
-  .ai-title {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 2.8rem;
-    font-weight: 900;
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
-    letter-spacing: 8px;
-    margin-bottom: 10px;
-  }
-
-  .ai-subtitle {
-    font-family: 'Share Tech Mono', monospace;
-    text-align: center;
-    color: #00ff88;
-    font-size: 0.9rem;
-    letter-spacing: 3px;
-    margin-bottom: 40px;
-    opacity: 0.8;
-  }
-
-  /* ===== MAIN LAYOUT ===== */
-  .main-layout {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 20px;
-    align-items: start;
-  }
-
-  /* ===== INFO BOXES ===== */
-  .info-box {
-    background: rgba(0, 255, 136, 0.03);
-    border: 1px solid rgba(0, 255, 136, 0.3);
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 15px;
-    position: relative;
-    transition: all 0.3s ease;
-  }
-
-  .info-box:hover {
-    border-color: #00ff88;
-    box-shadow: 0 0 20px rgba(0, 255, 136, 0.2);
-    transform: translateX(5px);
-  }
-
-  .info-box .layer-label {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 0.7rem;
-    color: #00ff88;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    opacity: 0.7;
-  }
-
-  .info-box h3 {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.1rem;
-    color: #ffffff;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-  }
-
-  .info-box ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .info-box ul li {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 0.8rem;
-    color: #a0a0a0;
-    padding: 3px 0;
-    position: relative;
-    padding-left: 15px;
-  }
-
-  .info-box ul li::before {
-    content: '▸';
-    position: absolute;
-    left: 0;
-    color: #00ff88;
-  }
-
-  .box-icon {
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2rem;
-    opacity: 0.3;
-  }
-
-  /* ===== NEURAL NETWORK CANVAS ===== */
-  .neural-network-container {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #neuralCanvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-  }
-
-  .nn-label {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 0.75rem;
-    color: #00ff88;
-    letter-spacing: 3px;
-    background: rgba(0, 255, 136, 0.1);
-    border: 1px solid rgba(0, 255, 136, 0.3);
-    padding: 5px 20px;
-    border-radius: 20px;
-    z-index: 2;
-  }
-
-  .nn-axis-labels {
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    z-index: 2;
-  }
-
-  .nn-axis-labels span {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 0.65rem;
-    color: #00ff88;
-    letter-spacing: 2px;
-    opacity: 0.6;
-  }
-
-  /* ===== FOOTER ===== */
-  .footer-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-    padding-top: 15px;
-    border-top: 1px solid rgba(0, 255, 136, 0.2);
-  }
-
-  .footer-bar .training-label {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 0.75rem;
-    color: #00ff88;
-    letter-spacing: 2px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .footer-bar .training-label::before {
-    content: '';
-    width: 8px;
-    height: 8px;
-    background: #00ff88;
-    border-radius: 50%;
-    animation: pulse-dot 1.5s ease infinite;
-  }
-
-  @keyframes pulse-dot {
-    0%, 100% { opacity: 1; box-shadow: 0 0 5px #00ff88; }
-    50% { opacity: 0.5; box-shadow: 0 0 15px #00ff88; }
-  }
-
-  .footer-bar .metrics {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 0.75rem;
-    color: #00ff88;
-    letter-spacing: 2px;
-  }
-
-  .progress-bar {
-    width: 200px;
-    height: 4px;
-    background: rgba(0, 255, 136, 0.1);
-    border-radius: 2px;
-    overflow: hidden;
-    margin: 0 20px;
-  }
-
-  .progress-bar-fill {
-    height: 100%;
-    background: linear-gradient(90deg, #00ff88, #00cc6a);
-    border-radius: 2px;
-    animation: progressAnim 3s ease-in-out infinite;
-    box-shadow: 0 0 10px #00ff88;
-  }
-
-  @keyframes progressAnim {
-    0% { width: 20%; }
-    50% { width: 85%; }
-    100% { width: 20%; }
-  }
-
-  /* ===== PARTICLES BACKGROUND ===== */
-  .particles-bg {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    pointer-events: none;
-    z-index: -1;
-    overflow: hidden;
-  }
-
-  .particle {
-    position: absolute;
-    width: 2px;
-    height: 2px;
-    background: #00ff88;
-    border-radius: 50%;
-    opacity: 0.3;
-    animation: float-particle linear infinite;
-  }
-
-  @keyframes float-particle {
-    0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
-    10% { opacity: 0.3; }
-    90% { opacity: 0.3; }
-    100% { transform: translateY(-100px) rotate(720deg); opacity: 0; }
-  }
-
-  /* ===== RESPONSIVE ===== */
-  @media (max-width: 900px) {
-    .header-content { flex-direction: column; text-align: center; }
-    .header-text h1 { font-size: 2.2rem; }
-    .skills-tags { justify-content: center; }
-    .main-layout { grid-template-columns: 1fr; }
-    .ai-title { font-size: 1.8rem; letter-spacing: 4px; }
-    .header-image { width: 200px; height: 200px; }
-    .neural-network-container { height: 350px; }
-  }
-
-  /* ===== SCANLINE EFFECT ===== */
-  .scanline {
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    pointer-events: none;
-    z-index: 9999;
-    background: repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 2px,
-      rgba(0, 255, 136, 0.015) 2px,
-      rgba(0, 255, 136, 0.015) 4px
-    );
-  }
-</style>
-</head>
-<body>
-
-<div class="scanline"></div>
-
-<!-- Background Particles -->
-<div class="particles-bg" id="particlesBg"></div>
-
-<div class="container">
-
-  <!-- HEADER -->
-  <div class="header-section">
-    <div class="header-content">
-      <div class="header-text">
-        <h1>SHAHID AZAM</h1>
-        <div class="title">DATA SCIENTIST</div>
-        <div class="skills-tags">
-          <span class="skill-tag">Data Visualization</span>
-          <span class="skill-tag">IoT</span>
-          <span class="skill-tag">Artificial Intelligence</span>
-          <span class="skill-tag">Data Science</span>
-          <span class="skill-tag">Big Data Mining</span>
-          <span class="skill-tag">Machine Learning</span>
-          <span class="skill-tag">Deep Learning</span>
-          <span class="skill-tag">Neural Networks</span>
-        </div>
-      </div>
-      <div class="header-image">
-        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" alt="Shahid Azam">
-      </div>
-    </div>
-  </div>
-
-  <!-- AI SECTION -->
-  <div class="ai-section">
-    <h2 class="ai-title">ARTIFICIAL INTELLIGENCE</h2>
-    <p class="ai-subtitle">MACHINE LEARNING / DEEP LEARNING / NLP / DATA VISUALIZATION / BIG DATA / IOT</p>
-
-    <div class="main-layout">
-
-      <!-- LEFT COLUMN -->
-      <div class="left-column">
-        <div class="info-box" data-connect="iot">
-          <div class="layer-label">DATA LAYER</div>
-          <h3>IoT & EDGE</h3>
-          <ul>
-            <li>Sensor data streams</li>
-            <li>Edge inference</li>
-            <li>Real-time telemetry</li>
-          </ul>
-          <div class="box-icon">📡</div>
-        </div>
-
-        <div class="info-box" data-connect="bigdata">
-          <div class="layer-label">DATA LAYER</div>
-          <h3>BIG DATA MINING</h3>
-          <ul>
-            <li>Spark and Hadoop</li>
-            <li>Pattern discovery</li>
-            <li>Feature extraction</li>
-          </ul>
-          <div class="box-icon">📊</div>
-        </div>
-
-        <div class="info-box" data-connect="viz">
-          <div class="layer-label">DATA LAYER</div>
-          <h3>VISUALIZATION</h3>
-          <ul>
-            <li>Interactive dashboards</li>
-            <li>Plotly and Matplotlib</li>
-            <li>Data storytelling</li>
-          </ul>
-          <div class="box-icon">📈</div>
-        </div>
-      </div>
-
-      <!-- CENTER - NEURAL NETWORK -->
-      <div class="neural-network-container">
-        <div class="nn-label">NEURAL NETWORK</div>
-        <canvas id="neuralCanvas"></canvas>
-        <div class="nn-axis-labels">
-          <span>INPUT</span>
-          <span>HIDDEN LAYERS</span>
-          <span>OUTPUT</span>
-        </div>
-      </div>
-
-      <!-- RIGHT COLUMN -->
-      <div class="right-column">
-        <div class="info-box" data-connect="ml">
-          <div class="layer-label">INTELLIGENCE LAYER</div>
-          <h3>MACHINE LEARNING</h3>
-          <ul>
-            <li>Supervised learning</li>
-            <li>Model evaluation</li>
-            <li>Feature engineering</li>
-          </ul>
-          <div class="box-icon"></div>
-        </div>
-
-        <div class="info-box" data-connect="dl">
-          <div class="layer-label">INTELLIGENCE LAYER</div>
-          <h3>DEEP LEARNING</h3>
-          <ul>
-            <li>CNNs and RNNs</li>
-            <li>Transformers</li>
-            <li>PyTorch, TensorFlow</li>
-          </ul>
-          <div class="box-icon">🧠</div>
-        </div>
-
-        <div class="info-box" data-connect="nlp">
-          <div class="layer-label">INTELLIGENCE LAYER</div>
-          <h3>NATURAL LANGUAGE</h3>
-          <ul>
-            <li>Text classification</li>
-            <li>Embeddings and RAG</li>
-            <li>Large language models</li>
-          </ul>
-          <div class="box-icon">💬</div>
-        </div>
-      </div>
-
-    </div>
-
-    <!-- FOOTER BAR -->
-    <div class="footer-bar">
-      <div class="training-label">MODEL TRAINING</div>
-      <div class="progress-bar">
-        <div class="progress-bar-fill"></div>
-      </div>
-      <div class="metrics">LOSS DOWN / ACCURACY UP</div>
-    </div>
-  </div>
+<div align="center">
+
+# <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=3000&color=00FF88&center=true&vCenter=true&width=600&lines=MASPEL" alt="MASPEL" />
+
+### <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=20&duration=2000&color=00FF88&center=true&vCenter=true&width=400&lines=DATA+SCIENTIST" alt="Data Scientist" />
+
+<br>
+
+<!-- SKILLS BADGES -->
+<table align="center">
+<tr>
+<td>
+
+![Data Visualization](https://img.shields.io/badge/Data_Visualization-00FF88?style=for-the-badge&logo=apache-echarts&logoColor=white&labelColor=0d1117)
+![IoT](https://img.shields.io/badge/IoT-00FF88?style=for-the-badge&logo=arduino&logoColor=white&labelColor=0d1117)
+![AI](https://img.shields.io/badge/Artificial_Intelligence-00FF88?style=for-the-badge&logo=openai&logoColor=white&labelColor=0d1117)
+![Data Science](https://img.shields.io/badge/Data_Science-00FF88?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117)
+
+</td>
+</tr>
+<tr>
+<td>
+
+![Big Data](https://img.shields.io/badge/Big_Data_Mining-00FF88?style=for-the-badge&logo=apache-spark&logoColor=white&labelColor=0d1117)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-00FF88?style=for-the-badge&logo=scikit-learn&logoColor=white&labelColor=0d1117)
+![Deep Learning](https://img.shields.io/badge/Deep_Learning-00FF88?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0d1117)
+![Neural Networks](https://img.shields.io/badge/Neural_Networks-00FF88?style=for-the-badge&logo=keras&logoColor=white&labelColor=0d1117)
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- ANIMATED NEURAL NETWORK SVG -->
+<svg width="700" height="400" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9"/>
+      <stop offset="50%" style="stop-color:#00FF88;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#00FF88;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00FF88;stop-opacity:0.1"/>
+      <stop offset="50%" style="stop-color:#00FF88;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#00FF88;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="400" fill="#0a0e17" rx="12"/>
+
+  <!-- Grid lines -->
+  <g stroke="#00FF88" stroke-opacity="0.05" stroke-width="0.5">
+    <line x1="0" y1="50" x2="700" y2="50"/>
+    <line x1="0" y1="100" x2="700" y2="100"/>
+    <line x1="0" y1="150" x2="700" y2="150"/>
+    <line x1="0" y1="200" x2="700" y2="200"/>
+    <line x1="0" y1="250" x2="700" y2="250"/>
+    <line x1="0" y1="300" x2="700" y2="300"/>
+    <line x1="0" y1="350" x2="700" y2="350"/>
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="500" y1="0" x2="500" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+  </g>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-family="monospace" font-size="14" fill="#00FF88" letter-spacing="4" opacity="0.8">NEURAL NETWORK</text>
+
+  <!-- CONNECTIONS with animated dashes -->
+  <g stroke="#00FF88" stroke-width="1" fill="none" opacity="0.3">
+    <!-- Layer 1 to Layer 2 -->
+    <line x1="120" y1="120" x2="260" y2="80" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="120" x2="260" y2="160" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="120" x2="260" y2="240" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="200" x2="260" y2="80" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="200" x2="260" y2="160" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.9s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="200" x2="260" y2="240" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="200" x2="260" y2="320" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="280" x2="260" y2="160" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="280" x2="260" y2="240" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.7s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="280" x2="260" y2="320" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.6s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Layer 2 to Layer 3 -->
+    <line x1="260" y1="80" x2="400" y2="60" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="80" x2="400" y2="140" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="80" x2="400" y2="220" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.9s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="160" x2="400" y2="60" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="160" x2="400" y2="140" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="160" x2="400" y2="220" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="160" x2="400" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="240" x2="400" y2="140" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="240" x2="400" y2="220" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="240" x2="400" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.7s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="240" x2="400" y2="360" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="320" x2="400" y2="220" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="320" x2="400" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="320" x2="400" y2="360" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.9s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Layer 3 to Layer 4 -->
+    <line x1="400" y1="60" x2="540" y2="100" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="60" x2="540" y2="200" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="140" x2="540" y2="100" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="140" x2="540" y2="200" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="140" x2="540" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="220" x2="540" y2="100" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="220" x2="540" y2="200" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.9s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="220" x2="540" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="300" x2="540" y2="200" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="300" x2="540" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="360" x2="540" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.7s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Layer 4 to Layer 5 -->
+    <line x1="540" y1="100" x2="620" y2="150" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="540" y1="100" x2="620" y2="250" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="540" y1="200" x2="620" y2="150" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.9s" repeatCount="indefinite"/>
+    </line>
+    <line x1="540" y1="200" x2="620" y2="250" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="540" y1="300" x2="620" y2="150" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="540" y1="300" x2="620" y2="250" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- TRAVELING PARTICLES (animated circles along paths) -->
+  <circle r="3" fill="#ffffff" filter="url(#glow)">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M120,120 L260,160 L400,220 L540,200 L620,250"/>
+  </circle>
+  <circle r="2.5" fill="#00FF88" filter="url(#glow)">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M120,200 L260,80 L400,140 L540,100 L620,150"/>
+  </circle>
+  <circle r="2" fill="#ffffff" filter="url(#glow)">
+    <animateMotion dur="3.5s" repeatCount="indefinite" path="M120,280 L260,240 L400,300 L540,300 L620,250"/>
+  </circle>
+  <circle r="3" fill="#00FF88" filter="url(#glow)">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M120,120 L260,240 L400,60 L540,100 L620,150"/>
+  </circle>
+  <circle r="2" fill="#ffffff" filter="url(#glow)">
+    <animateMotion dur="3.2s" repeatCount="indefinite" path="M120,200 L260,320 L400,360 L540,300 L620,250"/>
+  </circle>
+
+  <!-- NODES - Layer 1 (Input) -->
+  <g>
+    <circle cx="120" cy="120" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="10;14;10" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="120" r="6" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="120" cy="200" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="10;14;10" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="200" r="6" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="120" cy="280" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="10;14;10" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="280" r="6" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- NODES - Layer 2 -->
+  <g>
+    <circle cx="260" cy="80" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="80" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="260" cy="160" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="160" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="260" cy="240" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="240" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="260" cy="320" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="320" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- NODES - Layer 3 (Hidden) -->
+  <g>
+    <circle cx="400" cy="60" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="7;11;7" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="60" r="4.5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="400" cy="140" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="7;11;7" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="140" r="4.5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="400" cy="220" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="7;11;7" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="220" r="4.5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="400" cy="300" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="7;11;7" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="300" r="4.5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="400" cy="360" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="7;11;7" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="360" r="4.5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- NODES - Layer 4 -->
+  <g>
+    <circle cx="540" cy="100" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="100" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="540" cy="200" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="200" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="540" cy="300" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="300" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- NODES - Layer 5 (Output) -->
+  <g>
+    <circle cx="620" cy="150" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="10;14;10" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="150" r="6" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="620" cy="250" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="10;14;10" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="250" r="6" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Axis Labels -->
+  <text x="120" y="390" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF88" opacity="0.6">INPUT</text>
+  <text x="350" y="390" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF88" opacity="0.6">HIDDEN LAYERS</text>
+  <text x="620" y="390" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF88" opacity="0.6">OUTPUT</text>
+</svg>
+
+<br>
+
+<!-- AI SECTION TITLE -->
+# 🧠 ARTIFICIAL INTELLIGENCE
+
+### `MACHINE LEARNING / DEEP LEARNING / NLP / DATA VISUALIZATION / BIG DATA / IOT`
+
+<br>
+
+<!-- INFO BOXES TABLE -->
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 📡 DATA LAYER — IoT & EDGE
+- Sensor data streams
+- Edge inference
+- Real-time telemetry
+
+### 📊 DATA LAYER — Big Data Mining
+- Spark and Hadoop
+- Pattern discovery
+- Feature extraction
+
+### 📈 DATA LAYER — Visualization
+- Interactive dashboards
+- Plotly and Matplotlib
+- Data storytelling
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 INTELLIGENCE LAYER — Machine Learning
+- Supervised learning
+- Model evaluation
+- Feature engineering
+
+###  INTELLIGENCE LAYER — Deep Learning
+- CNNs and RNNs
+- Transformers
+- PyTorch, TensorFlow
+
+### 💬 INTELLIGENCE LAYER — Natural Language
+- Text classification
+- Embeddings and RAG
+- Large language models
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- PROGRESS BAR -->
+<table align="center">
+<tr>
+<td>
+
+**🟢 MODEL TRAINING**
+
+</td>
+<td>
+
+![Training Progress](https://geps.dev/progress/75?bgColor=0d1117&color=00FF88&titleColor=00FF88)
+
+</td>
+<td>
+
+**LOSS DOWN / ACCURACY UP **
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- GITHUB STATS -->
+<table align="center">
+<tr>
+<td>
+  <img src="https://github-readme-stats.vercel.app/api?username=lutfipelangi&show_icons=true&theme=transparent&title_color=00FF88&text_color=e0e0e0&icon_color=00FF88&bg_color=0d1117&border_color=00FF88&hide_border=false" width="400" alt="GitHub Stats"/>
+</td>
+<td>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lutfipelangi&layout=compact&theme=transparent&title_color=00FF88&text_color=e0e0e0&bg_color=0d1117&border_color=00FF88&hide_border=false" width="300" alt="Top Languages"/>
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- ACTIVITY GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=lutfipelangi&bg_color=0a0e17&color=00FF88&line=00FF88&point=ffffff&area=true&hide_border=false" width="100%" alt="Activity Graph"/>
+
+<br>
+
+<!-- FOOTER -->
+---
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF88,100:0a1628&height=80&section=footer&text=MASPEL&fontSize=30&fontColor=ffffff&animation=twinkling" width="100%"/>
+</p>
 
 </div>
-
-<script>
-// ===== PARTICLES BACKGROUND =====
-(function() {
-  const bg = document.getElementById('particlesBg');
-  for (let i = 0; i < 30; i++) {
-    const p = document.createElement('div');
-    p.className = 'particle';
-    p.style.left = Math.random() * 100 + '%';
-    p.style.animationDuration = (8 + Math.random() * 15) + 's';
-    p.style.animationDelay = Math.random() * 10 + 's';
-    p.style.width = p.style.height = (1 + Math.random() * 3) + 'px';
-    bg.appendChild(p);
-  }
-})();
-
-// ===== NEURAL NETWORK ANIMATION =====
-(function() {
-  const canvas = document.getElementById('neuralCanvas');
-  const ctx = canvas.getContext('2d');
-  let W, H;
-  let time = 0;
-
-  function resize() {
-    const rect = canvas.parentElement.getBoundingClientRect();
-    W = canvas.width = rect.width;
-    H = canvas.height = rect.height;
-  }
-  resize();
-  window.addEventListener('resize', resize);
-
-  // Neural network layers
-  const layers = [4, 7, 9, 7, 4];
-  const nodes = [];
-  const connections = [];
-  const particles = [];
-
-  // Create nodes
-  function createNodes() {
-    nodes.length = 0;
-    const layerSpacing = W / (layers.length + 1);
-    for (let l = 0; l < layers.length; l++) {
-      const x = layerSpacing * (l + 1);
-      const nodeSpacing = H / (layers[l] + 1);
-      for (let n = 0; n < layers[l]; n++) {
-        const y = nodeSpacing * (n + 1);
-        nodes.push({
-          x: x,
-          y: y,
-          layer: l,
-          index: n,
-          baseRadius: 4 + Math.random() * 3,
-          pulsePhase: Math.random() * Math.PI * 2,
-          glowIntensity: 0.3 + Math.random() * 0.7
-        });
-      }
-    }
-  }
-
-  // Create connections
-  function createConnections() {
-    connections.length = 0;
-    for (let l = 0; l < layers.length - 1; l++) {
-      const currentLayerNodes = nodes.filter(n => n.layer === l);
-      const nextLayerNodes = nodes.filter(n => n.layer === l + 1);
-      for (const cn of currentLayerNodes) {
-        for (const nn of nextLayerNodes) {
-          if (Math.random() > 0.3) {
-            connections.push({
-              from: cn,
-              to: nn,
-              weight: 0.2 + Math.random() * 0.8,
-              particleSpeed: 0.005 + Math.random() * 0.015,
-              particleOffset: Math.random()
-            });
-          }
-        }
-      }
-    }
-  }
-
-  // Create traveling particles
-  function createParticles() {
-    particles.length = 0;
-    for (const conn of connections) {
-      if (Math.random() > 0.5) {
-        particles.push({
-          connection: conn,
-          progress: Math.random(),
-          speed: conn.particleSpeed,
-          size: 1.5 + Math.random() * 2,
-          brightness: 0.5 + Math.random() * 0.5
-        });
-      }
-    }
-  }
-
-  createNodes();
-  createConnections();
-  createParticles();
-
-  window.addEventListener('resize', () => {
-    resize();
-    createNodes();
-    createConnections();
-    createParticles();
-  });
-
-  function draw() {
-    ctx.clearRect(0, 0, W, H);
-    time += 0.016;
-
-    // Draw connections
-    for (const conn of connections) {
-      const alpha = 0.05 + conn.weight * 0.15;
-      ctx.beginPath();
-      ctx.moveTo(conn.from.x, conn.from.y);
-
-      // Curved connection
-      const midX = (conn.from.x + conn.to.x) / 2;
-      const midY = (conn.from.y + conn.to.y) / 2;
-      const curveOffset = Math.sin(time * 2 + conn.from.pulsePhase) * 10;
-      ctx.quadraticCurveTo(midX + curveOffset, midY, conn.to.x, conn.to.y);
-
-      ctx.strokeStyle = `rgba(0, 255, 136, ${alpha})`;
-      ctx.lineWidth = 0.5 + conn.weight * 1;
-      ctx.stroke();
-    }
-
-    // Draw traveling particles along connections
-    for (const p of particles) {
-      p.progress += p.speed;
-      if (p.progress > 1) {
-        p.progress = 0;
-        p.connection = connections[Math.floor(Math.random() * connections.length)];
-      }
-
-      const conn = p.connection;
-      const t = p.progress;
-      const midX = (conn.from.x + conn.to.x) / 2;
-      const midY = (conn.from.y + conn.to.y) / 2;
-      const curveOffset = Math.sin(time * 2 + conn.from.pulsePhase) * 10;
-
-      // Quadratic bezier point
-      const px = (1-t)*(1-t)*conn.from.x + 2*(1-t)*t*(midX + curveOffset) + t*t*conn.to.x;
-      const py = (1-t)*(1-t)*conn.from.y + 2*(1-t)*t*midY + t*t*conn.to.y;
-
-      // Glow
-      const gradient = ctx.createRadialGradient(px, py, 0, px, py, p.size * 4);
-      gradient.addColorStop(0, `rgba(0, 255, 136, ${p.brightness * 0.8})`);
-      gradient.addColorStop(0.5, `rgba(0, 255, 136, ${p.brightness * 0.3})`);
-      gradient.addColorStop(1, 'rgba(0, 255, 136, 0)');
-      ctx.beginPath();
-      ctx.arc(px, py, p.size * 4, 0, Math.PI * 2);
-      ctx.fillStyle = gradient;
-      ctx.fill();
-
-      // Core
-      ctx.beginPath();
-      ctx.arc(px, py, p.size, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(255, 255, 255, ${p.brightness})`;
-      ctx.fill();
-    }
-
-    // Draw nodes
-    for (const node of nodes) {
-      const pulse = Math.sin(time * 3 + node.pulsePhase) * 0.3 + 0.7;
-      const radius = node.baseRadius * (0.8 + pulse * 0.4);
-
-      // Outer glow
-      const glowRadius = radius * 4;
-      const gradient = ctx.createRadialGradient(node.x, node.y, 0, node.x, node.y, glowRadius);
-      gradient.addColorStop(0, `rgba(0, 255, 136, ${0.3 * node.glowIntensity * pulse})`);
-      gradient.addColorStop(0.5, `rgba(0, 255, 136, ${0.1 * node.glowIntensity * pulse})`);
-      gradient.addColorStop(1, 'rgba(0, 255, 136, 0)');
-      ctx.beginPath();
-      ctx.arc(node.x, node.y, glowRadius, 0, Math.PI * 2);
-      ctx.fillStyle = gradient;
-      ctx.fill();
-
-      // Node ring
-      ctx.beginPath();
-      ctx.arc(node.x, node.y, radius + 2, 0, Math.PI * 2);
-      ctx.strokeStyle = `rgba(0, 255, 136, ${0.4 * pulse})`;
-      ctx.lineWidth = 1;
-      ctx.stroke();
-
-      // Node core
-      ctx.beginPath();
-      ctx.arc(node.x, node.y, radius, 0, Math.PI * 2);
-      const coreGrad = ctx.createRadialGradient(node.x, node.y, 0, node.x, node.y, radius);
-      coreGrad.addColorStop(0, `rgba(255, 255, 255, ${0.9 * pulse})`);
-      coreGrad.addColorStop(0.7, `rgba(0, 255, 136, ${0.6 * pulse})`);
-      coreGrad.addColorStop(1, `rgba(0, 200, 100, ${0.3 * pulse})`);
-      ctx.fillStyle = coreGrad;
-      ctx.fill();
-    }
-
-    // Draw subtle grid
-    ctx.strokeStyle = 'rgba(0, 255, 136, 0.03)';
-    ctx.lineWidth = 0.5;
-    const gridSize = 40;
-    for (let x = 0; x < W; x += gridSize) {
-      ctx.beginPath();
-      ctx.moveTo(x, 0);
-      ctx.lineTo(x, H);
-      ctx.stroke();
-    }
-    for (let y = 0; y < H; y += gridSize) {
-      ctx.beginPath();
-      ctx.moveTo(0, y);
-      ctx.lineTo(W, y);
-      ctx.stroke();
-    }
-
-    requestAnimationFrame(draw);
-  }
-
-  draw();
-})();
-</script>
-
-</body>
-</html>
