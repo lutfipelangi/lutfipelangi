@@ -287,8 +287,7 @@
 
 <br>
 
-<!-- ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=lutfipelangi&bg_color=0a0e17&color=00FF88&line=00FF88&point=ffffff&area=true&hide_border=false" width="100%" alt="Activity Graph"/>
+
 
 <br>
 
