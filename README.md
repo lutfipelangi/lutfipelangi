@@ -192,8 +192,8 @@
   </g>
 
   <!-- Axis Labels -->
-  <text x="120" y="390" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF88" opacity="0.6">INP</text>
-  <text x="350" y="390" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF88" opacity="0.6">HID LAYERS</text>
+  <text x="120" y="390" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF88" opacity="0.6"></text>
+  <text x="350" y="390" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF88" opacity="0.6">LAYERS</text>
   <text x="620" y="390" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF88" opacity="0.6">OUTPUT</text>
 </svg>
 
