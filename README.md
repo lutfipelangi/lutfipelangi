@@ -33,9 +33,9 @@
     <img src="https://github-readme-stats.vercel.app/api?username=lutfipelangi![Uploading image.png…]()
 &show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=39FF14&text_color=ffffff&icon_color=39FF14&border_color=39FF14" alt="GitHub Stats" height="180" />
   </a>
-  <a href="https://github.com/lutfipelangi">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=lutfipelangi&theme=chartreuse-dark&background=0d1117&ring=39FF14&fire=39FF14&currStreakNum=ffffff&sideNums=39FF14&currStreakLabel=39FF14&sideLabels=ffffff&dates=ffffff&border=39FF14" alt="GitHub Streak" height="180" />
-  </a>
+<a href="https://github.com/lutfipelangi">
+  <img src="https://github-readme-stats.vercel.app/api?username=lutfipelangi&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=39FF14&text_color=ffffff&icon_color=39FF14&border_color=39FF14" alt="GitHub Stats" height="180" />
+</a>
 
   <br><br>
   
