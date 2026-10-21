@@ -1,63 +1,416 @@
 <div align="center">
 
-# 🟢 MASPEL
+# <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=3000&color=00FF88&center=true&vCenter=true&width=600&lines=MASPEL" alt="MASPEL" />
 
-### `DATA SCIENTIST`
+### <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=20&duration=2000&color=00FF88&center=true&vCenter=true&width=400&lines=DATA+SCIENTIST" alt="Data Scientist" />
 
 <br>
+
+<!-- SKILLS BADGES -->
+<table align="center">
+<tr>
+<td>
 
 ![Data Visualization](https://img.shields.io/badge/Data_Visualization-00FF88?style=for-the-badge&logo=apache-echarts&logoColor=white&labelColor=0d1117)
 ![IoT](https://img.shields.io/badge/IoT-00FF88?style=for-the-badge&logo=arduino&logoColor=white&labelColor=0d1117)
 ![AI](https://img.shields.io/badge/Artificial_Intelligence-00FF88?style=for-the-badge&logo=openai&logoColor=white&labelColor=0d1117)
 ![Data Science](https://img.shields.io/badge/Data_Science-00FF88?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117)
 
+</td>
+</tr>
+<tr>
+<td>
+
 ![Big Data](https://img.shields.io/badge/Big_Data_Mining-00FF88?style=for-the-badge&logo=apache-spark&logoColor=white&labelColor=0d1117)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-00FF88?style=for-the-badge&logo=scikit-learn&logoColor=white&labelColor=0d1117)
 ![Deep Learning](https://img.shields.io/badge/Deep_Learning-00FF88?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0d1117)
 ![Neural Networks](https://img.shields.io/badge/Neural_Networks-00FF88?style=for-the-badge&logo=keras&logoColor=white&labelColor=0d1117)
 
-<br>
+</td>
+</tr>
+</table>
+
 <br>
 
+<!-- ANIMATED NEURAL NETWORK SVG -->
+<svg width="700" height="400" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9"/>
+      <stop offset="50%" style="stop-color:#00FF88;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#00FF88;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00FF88;stop-opacity:0.1"/>
+      <stop offset="50%" style="stop-color:#00FF88;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#00FF88;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="400" fill="#0a0e17" rx="12"/>
+
+  <!-- Grid lines -->
+  <g stroke="#00FF88" stroke-opacity="0.05" stroke-width="0.5">
+    <line x1="0" y1="50" x2="700" y2="50"/>
+    <line x1="0" y1="100" x2="700" y2="100"/>
+    <line x1="0" y1="150" x2="700" y2="150"/>
+    <line x1="0" y1="200" x2="700" y2="200"/>
+    <line x1="0" y1="250" x2="700" y2="250"/>
+    <line x1="0" y1="300" x2="700" y2="300"/>
+    <line x1="0" y1="350" x2="700" y2="350"/>
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="500" y1="0" x2="500" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+  </g>
+
+  <!-- Title -->
+  <text x="350" y="35" text-anchor="middle" font-family="monospace" font-size="14" fill="#00FF88" letter-spacing="4" opacity="0.8">NEURAL NETWORK</text>
+
+  <!-- CONNECTIONS with animated dashes -->
+  <g stroke="#00FF88" stroke-width="1" fill="none" opacity="0.3">
+    <!-- Layer 1 to Layer 2 -->
+    <line x1="120" y1="120" x2="260" y2="80" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="120" x2="260" y2="160" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="120" x2="260" y2="240" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="200" x2="260" y2="80" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="200" x2="260" y2="160" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.9s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="200" x2="260" y2="240" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="200" x2="260" y2="320" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="280" x2="260" y2="160" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="280" x2="260" y2="240" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.7s" repeatCount="indefinite"/>
+    </line>
+    <line x1="120" y1="280" x2="260" y2="320" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.6s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Layer 2 to Layer 3 -->
+    <line x1="260" y1="80" x2="400" y2="60" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="80" x2="400" y2="140" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="80" x2="400" y2="220" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.9s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="160" x2="400" y2="60" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="160" x2="400" y2="140" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="160" x2="400" y2="220" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="160" x2="400" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="240" x2="400" y2="140" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="240" x2="400" y2="220" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="240" x2="400" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.7s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="240" x2="400" y2="360" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="320" x2="400" y2="220" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="320" x2="400" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="260" y1="320" x2="400" y2="360" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.9s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Layer 3 to Layer 4 -->
+    <line x1="400" y1="60" x2="540" y2="100" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="60" x2="540" y2="200" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="140" x2="540" y2="100" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="140" x2="540" y2="200" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="140" x2="540" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="220" x2="540" y2="100" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="220" x2="540" y2="200" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.9s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="220" x2="540" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="300" x2="540" y2="200" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="300" x2="540" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="360" x2="540" y2="300" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.7s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Layer 4 to Layer 5 -->
+    <line x1="540" y1="100" x2="620" y2="150" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="540" y1="100" x2="620" y2="250" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="540" y1="200" x2="620" y2="150" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.9s" repeatCount="indefinite"/>
+    </line>
+    <line x1="540" y1="200" x2="620" y2="250" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="540" y1="300" x2="620" y2="150" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="540" y1="300" x2="620" y2="250" stroke-dasharray="4,4">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.8s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- TRAVELING PARTICLES (animated circles along paths) -->
+  <circle r="3" fill="#ffffff" filter="url(#glow)">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M120,120 L260,160 L400,220 L540,200 L620,250"/>
+  </circle>
+  <circle r="2.5" fill="#00FF88" filter="url(#glow)">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M120,200 L260,80 L400,140 L540,100 L620,150"/>
+  </circle>
+  <circle r="2" fill="#ffffff" filter="url(#glow)">
+    <animateMotion dur="3.5s" repeatCount="indefinite" path="M120,280 L260,240 L400,300 L540,300 L620,250"/>
+  </circle>
+  <circle r="3" fill="#00FF88" filter="url(#glow)">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M120,120 L260,240 L400,60 L540,100 L620,150"/>
+  </circle>
+  <circle r="2" fill="#ffffff" filter="url(#glow)">
+    <animateMotion dur="3.2s" repeatCount="indefinite" path="M120,200 L260,320 L400,360 L540,300 L620,250"/>
+  </circle>
+
+  <!-- NODES - Layer 1 (Input) -->
+  <g>
+    <circle cx="120" cy="120" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="10;14;10" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="120" r="6" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="120" cy="200" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="10;14;10" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="200" r="6" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="120" cy="280" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="10;14;10" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="280" r="6" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- NODES - Layer 2 -->
+  <g>
+    <circle cx="260" cy="80" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="80" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="260" cy="160" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="160" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="260" cy="240" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="240" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="260" cy="320" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="320" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- NODES - Layer 3 (Hidden) -->
+  <g>
+    <circle cx="400" cy="60" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="7;11;7" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="60" r="4.5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="400" cy="140" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="7;11;7" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="140" r="4.5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="400" cy="220" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="7;11;7" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="220" r="4.5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="400" cy="300" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="7;11;7" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="300" r="4.5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="400" cy="360" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="7;11;7" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="360" r="4.5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- NODES - Layer 4 -->
+  <g>
+    <circle cx="540" cy="100" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="100" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="540" cy="200" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="200" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="540" cy="300" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="8;12;8" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="300" r="5" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- NODES - Layer 5 (Output) -->
+  <g>
+    <circle cx="620" cy="150" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="10;14;10" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="150" r="6" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="620" cy="250" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
+      <animate attributeName="r" values="10;14;10" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="250" r="6" fill="#00FF88" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Axis Labels -->
+  <text x="120" y="390" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF88" opacity="0.6">INPUT</text>
+  <text x="350" y="390" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF88" opacity="0.6">HIDDEN LAYERS</text>
+  <text x="620" y="390" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF88" opacity="0.6">OUTPUT</text>
+</svg>
+
+<br>
+
+<!-- AI SECTION TITLE -->
 # 🧠 ARTIFICIAL INTELLIGENCE
 
 ### `MACHINE LEARNING / DEEP LEARNING / NLP / DATA VISUALIZATION / BIG DATA / IOT`
 
 <br>
 
-<table align="center">
+<!-- INFO BOXES TABLE -->
+<table align="center" width="100%">
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-###  IoT & EDGE
+### 📡 DATA LAYER — IoT & EDGE
 - Sensor data streams
 - Edge inference
 - Real-time telemetry
 
-### 📊 Big Data Mining
+### 📊 DATA LAYER — Big Data Mining
 - Spark and Hadoop
 - Pattern discovery
 - Feature extraction
 
-###  Visualization
+### 📈 DATA LAYER — Visualization
 - Interactive dashboards
 - Plotly and Matplotlib
 - Data storytelling
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🤖 Machine Learning
+### 🤖 INTELLIGENCE LAYER — Machine Learning
 - Supervised learning
 - Model evaluation
 - Feature engineering
 
-### 🧠 Deep Learning
+###  INTELLIGENCE LAYER — Deep Learning
 - CNNs and RNNs
 - Transformers
 - PyTorch, TensorFlow
 
-### 💬 Natural Language
+### 💬 INTELLIGENCE LAYER — Natural Language
 - Text classification
 - Embeddings and RAG
 - Large language models
@@ -68,24 +421,52 @@
 
 <br>
 
-**🟢 MODEL TRAINING** — `LOSS DOWN / ACCURACY UP`
+<!-- PROGRESS BAR -->
+<table align="center">
+<tr>
+<td>
 
-![Training](https://geps.dev/progress/75?bgColor=0d1117&color=00FF88&titleColor=00FF88)
+**🟢 MODEL TRAINING**
+
+</td>
+<td>
+
+![Training Progress](https://geps.dev/progress/75?bgColor=0d1117&color=00FF88&titleColor=00FF88)
+
+</td>
+<td>
+
+**LOSS DOWN / ACCURACY UP **
+
+</td>
+</tr>
+</table>
 
 <br>
+
+<!-- GITHUB STATS -->
+<table align="center">
+<tr>
+<td>
+  <img src="https://github-readme-stats.vercel.app/api?username=lutfipelangi&show_icons=true&theme=transparent&title_color=00FF88&text_color=e0e0e0&icon_color=00FF88&bg_color=0d1117&border_color=00FF88&hide_border=false" width="400" alt="GitHub Stats"/>
+</td>
+<td>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lutfipelangi&layout=compact&theme=transparent&title_color=00FF88&text_color=e0e0e0&bg_color=0d1117&border_color=00FF88&hide_border=false" width="300" alt="Top Languages"/>
+</td>
+</tr>
+</table>
+
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=lutfipelangi&show_icons=true&theme=transparent&title_color=00FF88&text_color=e0e0e0&icon_color=00FF88&bg_color=0d1117&border_color=00FF88" width="400"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lutfipelangi&layout=compact&theme=transparent&title_color=00FF88&text_color=e0e0e0&bg_color=0d1117&border_color=00FF88" width="300"/>
-
-<br>
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=lutfipelangi&bg_color=0a0e17&color=00FF88&line=00FF88&point=ffffff&area=true" width="100%"/>
+<!-- ACTIVITY GRAPH -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=lutfipelangi&bg_color=0a0e17&color=00FF88&line=00FF88&point=ffffff&area=true&hide_border=false" width="100%" alt="Activity Graph"/>
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF88,100:0a1628&height=80&section=footer&text=MASPEL&fontSize=30&fontColor=ffffff&animation=twinkling" width="100%"/>
+<!-- FOOTER -->
+---
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF88,100:0a1628&height=80&section=footer&text=MASPEL&fontSize=30&fontColor=ffffff&animation=twinkling" width="100%"/>
+</p>
 
 </div>
