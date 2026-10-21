@@ -140,19 +140,7 @@
       <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="120" cy="200" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="10;14;10" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="120" cy="200" r="6" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="120" cy="280" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="10;14;10" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="120" cy="280" r="6" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
+   
   </g>
 
   <!-- NODES - Layer 2 -->
@@ -164,26 +152,7 @@
       <animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="260" cy="160" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="8;12;8" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="260" cy="160" r="5" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="260" cy="240" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="8;12;8" dur="1.9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="260" cy="240" r="5" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.9s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="260" cy="320" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="8;12;8" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="260" cy="320" r="5" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
+  
   </g>
 
   <!-- NODES - Layer 3 (Hidden) -->
@@ -195,33 +164,7 @@
       <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="400" cy="140" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="7;11;7" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="400" cy="140" r="4.5" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="400" cy="220" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="7;11;7" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="400" cy="220" r="4.5" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="400" cy="300" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="7;11;7" dur="2.1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="400" cy="300" r="4.5" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="400" cy="360" r="9" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="7;11;7" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="400" cy="360" r="4.5" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
+    
   </g>
 
   <!-- NODES - Layer 4 -->
@@ -233,19 +176,7 @@
       <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="540" cy="200" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="8;12;8" dur="1.9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="540" cy="200" r="5" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.9s" repeatCount="indefinite"/>
-    </circle>
-
-    <circle cx="540" cy="300" r="10" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="8;12;8" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="540" cy="300" r="5" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
+    
   </g>
 
   <!-- NODES - Layer 5 (Output) -->
@@ -257,12 +188,7 @@
       <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
     </circle>
 
-    <circle cx="620" cy="250" r="12" fill="url(#nodeGlow)" filter="url(#glow)">
-      <animate attributeName="r" values="10;14;10" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="620" cy="250" r="6" fill="#00FF88" opacity="0.8">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
+   
   </g>
 
   <!-- Axis Labels -->
