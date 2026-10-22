@@ -372,8 +372,8 @@
       /     \       Shell: bash 5.2.21
      | () () |      Terminal: Alacritty
       \  ^  /       DE: i3wm / XFCE
-       |||||        CPU: Intel Core i9 @ 5.0GHz
-       |||||        RAM: 32GB DDR5
+       |||||        CPU: AMD Ryzen Threadripper 9960X 
+       |||||        RAM: 64GB DDR5
                   Uptime: 1337 days
 
 
