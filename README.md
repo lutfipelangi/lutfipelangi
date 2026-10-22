@@ -1,3 +1,45 @@
+::: {align="center"}
+# 🟢 MASPEL
+
+### `DIGITAL CREATOR • AI ENTHUSIAST • BUILDER`
+
+`<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=00FF88&center=true&vCenter=true&width=700&lines=Welcome+to+MASPEL's+GitHub;Building+Ideas+into+Digital+Projects;AI+%E2%80%A2+Automation+%E2%80%A2+Creative+Technology;Learn.+Build.+Improve." alt="Typing animation" />`{=html}
+
+`<br/>`{=html}
+
+`<img src="https://img.shields.io/badge/PROFILE-MASPEL-00ff88?style=for-the-badge&labelColor=07130d" alt="MASPEL profile" />`{=html}
+`<img src="https://img.shields.io/badge/STATUS-ALWAYS%20LEARNING-101820?style=for-the-badge&logo=github&logoColor=00ff88" alt="Always learning" />`{=html}
+:::::: {align="center"}
+## ◈ ABOUT MASPEL ◈
+
+**Exploring technology, creating useful things, and turning ideas into
+reality.**
+
+AI tools · Automation · Digital creativity · Open-source learning
+:::░▒▓ TECH STACK ▓▒░
+::: {align="center"}
+`<img src="https://skillicons.dev/icons?i=python,git,github,linux,bash,html,css,js&theme=dark" alt="Technology icons" />`{=html}
+:::◉ CURRENT MISSIONS
+- 01 --- Learn and experiment with AI tools.
+- 02 --- Build practical automations and digital projects.
+- 03 --- Explore open-source technology.
+- 04 --- Keep improving, one project at a time.
+▰ GITHUB ACTIVITY
+::: {align="center"}
+`<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MASPEL&bg_color=07130d&color=00ff88&line=00ff88&point=ffffff&area=true&hide_border=true" alt="GitHub activity graph" />`{=html}
+
+`<img src="https://github-readme-stats.vercel.app/api?username=MASPEL&show_icons=true&hide_border=true&bg_color=07130d&title_color=00ff88&text_color=e8fff2&icon_color=00ff88" height="165" alt="GitHub stats" />`{=html}
+`<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MASPEL&layout=compact&hide_border=true&bg_color=07130d&title_color=00ff88&text_color=e8fff2" height="165" alt="Top languages" />`{=html}
+:::◈ CONNECT
+::: {align="center"}
+[![GitHub](https://img.shields.io/badge/GitHub-MASPEL-07130d?style=for-the-badge&logo=github&logoColor=00ff88)](https://github.com/MASPEL)
+
+*"Small steps. Real progress. Keep building."*
+:::::: {align="center"}
+`<sub>`{=html}Designed in a neon-green digital style · No profile photo
+· Made for MASPEL`</sub>`{=html}
+:::
+
 <div align="center">
 
 # <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=3000&color=00FF88&center=true&vCenter=true&width=600&lines=MASPEL" alt="MASPEL" />
