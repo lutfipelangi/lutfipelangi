@@ -1,11 +1,13 @@
+
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001a0b,50:00ff88,100:001a0b&height=180&section=header&text=MASPEL&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=CREATIVE%20DIGITAL%20%7C%20BUSINESS%20%7C%20OWNER&descAlignY=62&descSize=16" width="100%" alt="MASPEL neon header"/>
+
 <div align="center">
   <img src="./ai-specialization.svg" width="100%" alt="AI Specialization" />
 </div>
 </body>
 </html>
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001a0b,50:00ff88,100:001a0b&height=180&section=header&text=MASPEL&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=CREATIVE%20DIGITAL%20%7C%20BUSINESS%20%7C%20OWNER&descAlignY=62&descSize=16" width="100%" alt="MASPEL neon header"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=650&lines=Welcome+to+MASPEL's+GitHub;Building+Ideas+into+Digital+Projects;AI+%7C+Automation+%7C+Creative+Tech;Learn.+Build.+Improve." alt="Animated typing text"/>
 
