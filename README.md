@@ -264,50 +264,7 @@
 
 <br>
 
-<!-- AI SECTION TITLE -->
-# 🧠 ARTIFICIAL INTELLIGENCE
 
-### `MACHINE LEARNING / DEEP LEARNING / NLP / DATA VISUALIZATION / BIG DATA / IOT`
-
-<br>
-
-<!-- INFO BOXES TABLE -->
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### 📡 DATA LAYER — IoT & EDGE
-- Sensor data streams
-- Edge inference
-- Real-time telemetry
-
-### 📊 DATA LAYER — Big Data Mining
-- Spark and Hadoop
-- Pattern discovery
-- Feature extraction
-
-### 📈 DATA LAYER — Visualization
-- Interactive dashboards
-- Plotly and Matplotlib
-- Data storytelling
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 INTELLIGENCE LAYER — Machine Learning
-- Supervised learning
-- Model evaluation
-- Feature engineering
-
-###  INTELLIGENCE LAYER — Deep Learning
-- CNNs and RNNs
-- Transformers
-- PyTorch, TensorFlow
-
-### 💬 INTELLIGENCE LAYER — Natural Language
-- Text classification
-- Embeddings and RAG
-- Large language models
 
 </td>
 </tr>
