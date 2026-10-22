@@ -1,3 +1,339 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Neural Network</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #050a06;
+            color: #00ff41;
+            font-family: 'Share Tech Mono', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .dashboard {
+            width: 1000px;
+            height: 600px;
+            border: 2px solid #00ff41;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.2);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            letter-spacing: 5px;
+            text-shadow: 0 0 10px #00ff41;
+        }
+
+        header p {
+            font-size: 12px;
+            color: #00aa2a;
+            letter-spacing: 2px;
+        }
+
+        .main-content {
+            display: flex;
+            flex: 1;
+            gap: 20px;
+        }
+
+        .panel {
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .card {
+            border: 1px solid rgba(0, 255, 65, 0.3);
+            border-radius: 5px;
+            padding: 10px;
+            background: rgba(0, 255, 65, 0.05);
+            box-shadow: inset 0 0 10px rgba(0, 255, 65, 0.1);
+        }
+
+        .card h2 {
+            font-size: 12px;
+            color: #00aa2a;
+            margin-bottom: 5px;
+        }
+
+        .card h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            text-shadow: 0 0 5px #00ff41;
+        }
+
+        .card ul {
+            list-style: none;
+            font-size: 11px;
+            color: #a0ffa0;
+        }
+
+        .card ul li::before {
+            content: "> ";
+            color: #00ff41;
+        }
+
+        .center-panel {
+            flex: 1;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgba(0, 255, 65, 0.1);
+            border-radius: 5px;
+            background: radial-gradient(circle, rgba(0, 255, 65, 0.05) 0%, transparent 70%);
+        }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .canvas-label {
+            position: absolute;
+            bottom: 10px;
+            font-size: 10px;
+            color: #00aa2a;
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard">
+        <header>
+            <h1>ARTIFICIAL INTELLIGENCE</h1>
+            <p>MACHINE LEARNING / DEEP LEARNING / NLP / DATA VISUALIZATION / BIG DATA / IOT</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Kolom Kiri -->
+            <div class="panel">
+                <div class="card">
+                    <h2>DATA LAYER</h2>
+                    <h3>IoT & EDGE</h3>
+                    <ul>
+                        <li>Sensor data streams</li>
+                        <li>Edge inference</li>
+                        <li>Real-time telemetry</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h2>DATA LAYER</h2>
+                    <h3>BIG DATA MINING</h3>
+                    <ul>
+                        <li>Spark and Hadoop</li>
+                        <li>Pattern discovery</li>
+                        <li>Feature extraction</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h2>DATA LAYER</h2>
+                    <h3>VISUALIZATION</h3>
+                    <ul>
+                        <li>Interactive dashboards</li>
+                        <li>Plotly and Matplotlib</li>
+                        <li>Data storytelling</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Kolom Tengah (Animasi) -->
+            <div class="center-panel">
+                <canvas id="neuralCanvas"></canvas>
+                <div class="canvas-label">
+                    <span>INPUT</span>
+                    <span>HIDDEN LAYERS</span>
+                    <span>OUTPUT</span>
+                </div>
+            </div>
+
+            <!-- Kolom Kanan -->
+            <div class="panel">
+                <div class="card">
+                    <h2>INTELLIGENCE LAYER</h2>
+                    <h3>MACHINE LEARNING</h3>
+                    <ul>
+                        <li>Supervised learning</li>
+                        <li>Model evaluation</li>
+                        <li>Feature engineering</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h2>INTELLIGENCE LAYER</h2>
+                    <h3>DEEP LEARNING</h3>
+                    <ul>
+                        <li>CNNs and RNNs</li>
+                        <li>Transformers</li>
+                        <li>PyTorch, TensorFlow</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h2>INTELLIGENCE LAYER</h2>
+                    <h3>NATURAL LANGUAGE</h3>
+                    <ul>
+                        <li>Text classification</li>
+                        <li>Embeddings and RAG</li>
+                        <li>Large language models</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('neuralCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Atur ukuran canvas
+        function resizeCanvas() {
+            canvas.width = canvas.parentElement.clientWidth;
+            canvas.height = canvas.parentElement.clientHeight;
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        // Data Node (Titik-titik)
+        const layers = [4, 6, 6, 4]; // Jumlah node per layer (Input, Hidden, Hidden, Output)
+        let nodes = [];
+        let connections = [];
+        let particles = [];
+
+        function initNetwork() {
+            nodes = [];
+            connections = [];
+            particles = [];
+
+            const width = canvas.width;
+            const height = canvas.height;
+            const layerSpacing = width / (layers.length + 1);
+            const nodeRadius = 4;
+
+            // Buat Nodes
+            for (let i = 0; i < layers.length; i++) {
+                const numNodes = layers[i];
+                const x = layerSpacing * (i + 1);
+                const ySpacing = height / (numNodes + 1);
+
+                for (let j = 0; j < numNodes; j++) {
+                    const y = ySpacing * (j + 1);
+                    nodes.push({ x, y, r: nodeRadius, layer: i });
+                }
+            }
+
+            // Buat Connections (Garis antar layer)
+            for (let i = 0; i < nodes.length; i++) {
+                for (let j = 0; j < nodes.length; j++) {
+                    if (nodes[j].layer === nodes[i].layer + 1) {
+                        connections.push({ from: nodes[i], to: nodes[j] });
+                        
+                        // Tambahkan partikel acak untuk setiap koneksi
+                        if (Math.random() > 0.5) {
+                            particles.push({
+                                from: nodes[i],
+                                to: nodes[j],
+                                progress: Math.random(),
+                                speed: 0.01 + Math.random() * 0.02
+                            });
+                        }
+                    }
+                }
+            }
+        }
+
+        // Animasi
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Gambar Garis (Connections)
+            ctx.strokeStyle = 'rgba(0, 255, 65, 0.15)';
+            ctx.lineWidth = 1;
+            connections.forEach(conn => {
+                ctx.beginPath();
+                ctx.moveTo(conn.from.x, conn.from.y);
+                ctx.lineTo(conn.to.x, conn.to.y);
+                ctx.stroke();
+            });
+
+            // Gambar Partikel Bergerak (Data yang mengalir)
+            particles.forEach(p => {
+                p.progress += p.speed;
+                if (p.progress > 1) {
+                    p.progress = 0; // Reset jika sudah sampai ujung
+                }
+
+                // Interpolasi posisi
+                const currentX = p.from.x + (p.to.x - p.from.x) * p.progress;
+                const currentY = p.from.y + (p.to.y - p.from.y) * p.progress;
+
+                ctx.beginPath();
+                ctx.arc(currentX, currentY, 2, 0, Math.PI * 2);
+                ctx.fillStyle = '#00ff41';
+                ctx.shadowBlur = 10;
+                ctx.shadowColor = '#00ff41';
+                ctx.fill();
+                ctx.shadowBlur = 0; // Reset shadow
+            });
+
+            // Gambar Nodes (Titik)
+            nodes.forEach(node => {
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, node.r, 0, Math.PI * 2);
+                ctx.fillStyle = '#00ff41';
+                ctx.fill();
+                
+                // Efek cincin luar
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, node.r + 2, 0, Math.PI * 2);
+                ctx.strokeStyle = 'rgba(0, 255, 65, 0.5)';
+                ctx.stroke();
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        // Jalankan
+        resizeCanvas();
+        initNetwork();
+        animate();
+
+        // Re-init jika ukuran layar berubah
+        window.addEventListener('resize', () => {
+            resizeCanvas();
+            initNetwork();
+        });
+    </script>
+</body>
+</html>
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001a0b,50:00ff88,100:001a0b&height=180&section=header&text=MASPEL&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=CREATIVE%20DIGITAL%20%7C%20BUSINESS%20%7C%20OWNER&descAlignY=62&descSize=16" width="100%" alt="MASPEL neon header"/>
