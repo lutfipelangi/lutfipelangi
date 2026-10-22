@@ -376,15 +376,4 @@
        |||||        RAM: 32GB DDR5
                   Uptime: 1337 days
 
-[system@linux ~]$ cat /etc/os-release
-NAME="Arch Linux"
-PRETTY_NAME="Arch Linux (Rolling Release)"
 
-[system@linux ~]$ sudo apt install hacker-skills
-[sudo] password for user: ********
-Reading package lists... Done
-Building dependency tree... Done
-The following NEW packages will be installed:
-  ethical-hacking python3 nmap wireshark
-0 upgraded, 4 newly installed, 0 to remove.
-Do you want to continue? [Y/n] y
