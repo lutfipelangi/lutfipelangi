@@ -341,9 +341,6 @@
 
 <br>
 
-![Linux](https://shields.io)
-![Ubuntu](https://shields.io)
-![Arch Linux](https://shields.io)
 
 
 
