@@ -341,11 +341,9 @@
 
 <br>
 
-### OS & Tools I Use:
-<p align="left">
-  <img src="https://jsdelivr.net" height="40" width="40" alt="Linux" />
-  <img src="https://jsdelivr.net" height="40" width="40" alt="Bash" />
-</p>
+![Linux](https://shields.io)
+![Ubuntu](https://shields.io)
+![Arch Linux](https://shields.io)
 
 
 
