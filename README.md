@@ -1,44 +1,63 @@
-::: {align="center"}
-# 🟢 MASPEL
+<div align="center">
 
-### `DIGITAL CREATOR • AI ENTHUSIAST • BUILDER`
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001a0b,50:00ff88,100:001a0b&height=180&section=header&text=MASPEL&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=DIGITAL%20CREATOR%20%7C%20AI%20%7C%20AUTOMATION&descAlignY=62&descSize=16" width="100%" alt="MASPEL neon header"/>
 
-`<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=900&color=00FF88&center=true&vCenter=true&width=700&lines=Welcome+to+MASPEL's+GitHub;Building+Ideas+into+Digital+Projects;AI+%E2%80%A2+Automation+%E2%80%A2+Creative+Technology;Learn.+Build.+Improve." alt="Typing animation" />`{=html}
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=650&lines=Welcome+to+MASPEL's+GitHub;Building+Ideas+into+Digital+Projects;AI+%7C+Automation+%7C+Creative+Tech;Learn.+Build.+Improve." alt="Animated typing text"/>
 
-`<br/>`{=html}
+</div>
 
-`<img src="https://img.shields.io/badge/PROFILE-MASPEL-00ff88?style=for-the-badge&labelColor=07130d" alt="MASPEL profile" />`{=html}
-`<img src="https://img.shields.io/badge/STATUS-ALWAYS%20LEARNING-101820?style=for-the-badge&logo=github&logoColor=00ff88" alt="Always learning" />`{=html}
-:::::: {align="center"}
-## ◈ ABOUT MASPEL ◈
+---
 
-**Exploring technology, creating useful things, and turning ideas into
-reality.**
+<div align="center">
 
-AI tools · Automation · Digital creativity · Open-source learning
-:::░▒▓ TECH STACK ▓▒░
-::: {align="center"}
-`<img src="https://skillicons.dev/icons?i=python,git,github,linux,bash,html,css,js&theme=dark" alt="Technology icons" />`{=html}
-:::◉ CURRENT MISSIONS
-- 01 --- Learn and experiment with AI tools.
-- 02 --- Build practical automations and digital projects.
-- 03 --- Explore open-source technology.
-- 04 --- Keep improving, one project at a time.
-▰ GITHUB ACTIVITY
-::: {align="center"}
-`<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=MASPEL&bg_color=07130d&color=00ff88&line=00ff88&point=ffffff&area=true&hide_border=true" alt="GitHub activity graph" />`{=html}
+<img src="https://img.shields.io/badge/IDENTITY-MASPEL-00ff88?style=for-the-badge&labelColor=07130d" alt="MASPEL"/>
+<img src="https://img.shields.io/badge/MODE-ALWAYS%20LEARNING-00ff88?style=for-the-badge&labelColor=07130d" alt="Always learning"/>
 
-`<img src="https://github-readme-stats.vercel.app/api?username=MASPEL&show_icons=true&hide_border=true&bg_color=07130d&title_color=00ff88&text_color=e8fff2&icon_color=00ff88" height="165" alt="GitHub stats" />`{=html}
-`<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MASPEL&layout=compact&hide_border=true&bg_color=07130d&title_color=00ff88&text_color=e8fff2" height="165" alt="Top languages" />`{=html}
-:::◈ CONNECT
-::: {align="center"}
-[![GitHub](https://img.shields.io/badge/GitHub-MASPEL-07130d?style=for-the-badge&logo=github&logoColor=00ff88)](https://github.com/MASPEL)
+</div>
 
-*"Small steps. Real progress. Keep building."*
-:::::: {align="center"}
-`<sub>`{=html}Designed in a neon-green digital style · No profile photo
-· Made for MASPEL`</sub>`{=html}
-:::
+## 🟢 ABOUT MASPEL
+
+> Exploring technology, creating useful things, and turning ideas into reality.
+
+- 🤖 AI tools and experiments
+- ⚙️ Automation and practical workflows
+- 💻 Open-source technology
+- 🎨 Digital creativity and learning
+
+## ⚡ TECHNOLOGY
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,git,github,linux,bash,html,css,js&theme=dark" alt="Technology icons"/>
+
+</div>
+
+## 🧬 DIGITAL ACTIVITY
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MASPEL&bg_color=07130d&color=00ff88&line=00ff88&point=ffffff&area=true&hide_border=true&custom_title=MASPEL%20%7C%20CONTRIBUTION%20GRAPH" width="100%" alt="Contribution graph"/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=MASPEL&show_icons=true&hide_border=true&bg_color=07130d&title_color=00ff88&text_color=e8fff2&icon_color=00ff88" height="165" alt="GitHub stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MASPEL&layout=compact&hide_border=true&bg_color=07130d&title_color=00ff88&text_color=e8fff2" height="165" alt="Top languages"/>
+
+</div>
+
+## ◈ CURRENT MISSIONS
+
+- `01` — Explore AI and local agents
+- `02` — Build useful automations
+- `03` — Learn by making real projects
+- `04` — Improve a little every day
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001a0b,50:00ff88,100:001a0b&height=100&section=footer" width="100%" alt="Neon footer"/>
+
+<sub>SMALL STEPS · REAL PROGRESS · KEEP BUILDING</sub>
+
+</div>
+
 
 <div align="center">
 
