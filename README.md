@@ -341,6 +341,13 @@
 
 <br>
 
+```bash
+user@linux-box ~\$ neofetch
+OS: Arch Linux x86_64
+Kernel: 6.x.x
+Shell: zsh
+WM: i3wm
+```
 
 
 <br>
