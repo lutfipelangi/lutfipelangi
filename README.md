@@ -353,3 +353,39 @@
 </p>
 
 </div>
+
+<div align="center">
+
+<!-- Efek Mengetik (Typing Effect) Warna Hijau -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=Welcome+to+my+terminal...;root@github:~%23+whoami;I+use+Linux+btw...;sudo+apt+install+knowledge;Access+Granted." alt="Typing SVG" />
+</a>
+
+<br><br>
+
+<!-- Kotak Terminal Palsu -->
+<div align="left" style="background-color: #000000; border: 1px solid #00FF00; border-radius: 5px; padding: 15px; font-family: 'Courier New', Courier, monospace; color: #00FF00; box-shadow: 0px 0px 10px #00FF00;">
+
+```bash
+[system@linux ~]$ fastfetch
+
+       .---.        OS: Linux (Custom Kernel)
+      /     \       Shell: bash 5.2.21
+     | () () |      Terminal: Alacritty
+      \  ^  /       DE: i3wm / XFCE
+       |||||        CPU: Intel Core i9 @ 5.0GHz
+       |||||        RAM: 32GB DDR5
+                  Uptime: 1337 days
+
+[system@linux ~]$ cat /etc/os-release
+NAME="Arch Linux"
+PRETTY_NAME="Arch Linux (Rolling Release)"
+
+[system@linux ~]$ sudo apt install hacker-skills
+[sudo] password for user: ********
+Reading package lists... Done
+Building dependency tree... Done
+The following NEW packages will be installed:
+  ethical-hacking python3 nmap wireshark
+0 upgraded, 4 newly installed, 0 to remove.
+Do you want to continue? [Y/n] y
