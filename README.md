@@ -341,13 +341,12 @@
 
 <br>
 
-```bash
-user@linux-box ~\$ neofetch
-OS: Arch Linux x86_64
-Kernel: 6.x.x
-Shell: zsh
-WM: i3wm
-```
+### OS & Tools I Use:
+<p align="left">
+  <img src="https://jsdelivr.net" height="40" width="40" alt="Linux" />
+  <img src="https://jsdelivr.net" height="40" width="40" alt="Bash" />
+</p>
+
 
 
 <br>
