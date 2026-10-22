@@ -338,13 +338,7 @@
   <img src="./spent-my-time.svg" width="100%" alt="Spent My Time" />
 </div>
 
-       .---.        OS: Linux (Custom Kernel)
-      /     \       Shell: bash 5.2.21
-     | () () |      Terminal: Alacritty
-      \  ^  /       DE: i3wm / XFCE
-       |||||        CPU: AMD Ryzen Threadripper 9960X 
-       |||||        RAM: 64GB DDR5
-                  Uptime: 1337 days
+ 
 
 <div align="left" style="background-color: #000000; border: 1px solid #00FF00; border-radius: 5px; padding: 15px; font-family: 'Courier New', Courier, monospace; color: #00FF00; box-shadow: 0px 0px 10px #00FF00;">
 
