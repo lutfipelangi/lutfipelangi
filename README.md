@@ -34,14 +34,7 @@
 
 ## 🧬 DIGITAL ACTIVITY
 
-<div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MASPEL&bg_color=07130d&color=00ff88&line=00ff88&point=ffffff&area=true&hide_border=true&custom_title=MASPEL%20%7C%20CONTRIBUTION%20GRAPH" width="100%" alt="Contribution graph"/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=MASPEL&show_icons=true&hide_border=true&bg_color=07130d&title_color=00ff88&text_color=e8fff2&icon_color=00ff88" height="165" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MASPEL&layout=compact&hide_border=true&bg_color=07130d&title_color=00ff88&text_color=e8fff2" height="165" alt="Top languages"/>
-
-</div>
 
 ## ◈ CURRENT MISSIONS
 
