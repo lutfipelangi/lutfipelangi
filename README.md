@@ -50,19 +50,9 @@
 - `03` — Learn by making real projects
 - `04` — Improve a little every day
 
-<div align="left" style="background-color: #000000; border: 1px solid #00FF00; border-radius: 5px; padding: 15px; font-family: 'Courier New', Courier, monospace; color: #00FF00; box-shadow: 0px 0px 10px #00FF00;">
 
-<div align="center">
-  <img src="./certificates-banner.svg" width="100%" alt="Spent My Time" />
-</div>
 
-<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001a0b,50:00ff88,100:001a0b&height=100&section=footer" width="100%" alt="Neon footer"/>
-
-<sub>SMALL STEPS · REAL PROGRESS · KEEP BUILDING</sub>
-
-</div>
 
 
 <div align="center">
@@ -78,10 +68,6 @@
 <tr>
 <td>
 
-![Data Visualization](https://img.shields.io/badge/Data_Visualization-00FF88?style=for-the-badge&logo=apache-echarts&logoColor=white&labelColor=0d1117)
-![IoT](https://img.shields.io/badge/IoT-00FF88?style=for-the-badge&logo=arduino&logoColor=white&labelColor=0d1117)
-![AI](https://img.shields.io/badge/Artificial_Intelligence-00FF88?style=for-the-badge&logo=openai&logoColor=white&labelColor=0d1117)
-![Data Science](https://img.shields.io/badge/Data_Science-00FF88?style=for-the-badge&logo=python&logoColor=white&labelColor=0d1117)
 
 </td>
 </tr>
