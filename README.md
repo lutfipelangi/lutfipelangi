@@ -60,26 +60,7 @@
 
 ### <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=20&duration=2000&color=00FF88&center=true&vCenter=true&width=400&lines=DATA+SCIENTIST" alt="Data Scientist" />
 
-<br>
 
-<!-- SKILLS BADGES -->
-<table align="center">
-<tr>
-<td>
-
-
-</td>
-</tr>
-<tr>
-<td>
-
-
-
-</td>
-</tr>
-</table>
-
-<br>
 
 <!-- ANIMATED NEURAL NETWORK SVG -->
 <svg width="700" height="400" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg">
