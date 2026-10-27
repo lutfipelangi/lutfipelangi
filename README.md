@@ -73,10 +73,7 @@
 <tr>
 <td>
 
-![Big Data](https://img.shields.io/badge/Big_Data_Mining-00FF88?style=for-the-badge&logo=apache-spark&logoColor=white&labelColor=0d1117)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-00FF88?style=for-the-badge&logo=scikit-learn&logoColor=white&labelColor=0d1117)
-![Deep Learning](https://img.shields.io/badge/Deep_Learning-00FF88?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0d1117)
-![Neural Networks](https://img.shields.io/badge/Neural_Networks-00FF88?style=for-the-badge&logo=keras&logoColor=white&labelColor=0d1117)
+
 
 </td>
 </tr>
