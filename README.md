@@ -2,12 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001a0b,50:00ff88,100:001a0b&height=180&section=header&text=MASPEL&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=CREATIVE%20DIGITAL%20%7C%20BUSINESS%20%7C%20OWNER&descAlignY=62&descSize=16" width="100%" alt="MASPEL neon header"/>
 
-<div align="center">
-  <img src="./ai-specialization.svg" width="100%" alt="AI Specialization" />
-</div>
-</body>
-</html>
-<div align="center">
+
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF88&center=true&vCenter=true&width=650&lines=Welcome+to+MASPEL's+GitHub;Building+Ideas+into+Digital+Projects;AI+%7C+Automation+%7C+Creative+Tech;Learn.+Build.+Improve." alt="Animated typing text"/>
 
@@ -293,7 +288,12 @@
 
 <!-- Kotak Terminal Palsu -->
 <div align="left" style="background-color: #000000; border: 1px solid #00FF00; border-radius: 5px; padding: 15px; font-family: 'Courier New', Courier, monospace; color: #00FF00; box-shadow: 0px 0px 10px #00FF00;">
-
+<div align="center">
+  <img src="./ai-specialization.svg" width="100%" alt="AI Specialization" />
+</div>
+</body>
+</html>
+<div align="center">
 <div align="center">
   <img src="./spent-my-time.svg" width="100%" alt="Spent My Time" />
 </div>
