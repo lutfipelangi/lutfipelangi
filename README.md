@@ -1,8 +1,6 @@
-
-
 #  Hi, I'm MASPEL
 
-### Founder ·  Web Developer · Music Producer
+### Founder · Developer · Music Producer
 
 I'm an entrepreneur, creative thinker, and technology enthusiast who enjoys building things across business, music, and digital technology.
 
@@ -10,17 +8,15 @@ My journey combines business experience, music production, and web development. 
 
 I don't always write every line of code from scratch. Instead, I focus on understanding system architecture, planning solutions, and using AI-assisted tools to help build and execute projects more effectively.
 
-
 ---
 
-##  What I'm Building
+## What I'm Building
 
-### Kios Pelangi
-A printing and creative business specializing in wedding invitations, printing services, and wedding souvenirs.
-
+###  Kios Pelangi
+A printing and creative business specializing in wedding invitations, printing services, and wedding souvenirs. 
 Currently working on developing its digital presence and building a website to support business growth.
 
-###  Online Media Portal
+### Online Media Portal
 Exploring the development of a multi-author publishing platform where journalists can independently log in, write articles, and upload images.
 
 ### Music Tech
@@ -28,7 +24,7 @@ As a music producer, I'm also interested in building music-related digital produ
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 **Frontend & Development**
 - Astro
@@ -44,7 +40,7 @@ As a music producer, I'm also interested in building music-related digital produ
 - Row Level Security (RLS)
 
 **Infrastructure & Deployment**
-- Cloudflare 
+- Cloudflare
 - Vercel
 - Linux
 
@@ -55,17 +51,21 @@ As a music producer, I'm also interested in building music-related digital produ
 - OpenCode
 - Hermes Agent
 - Cubase
-- Fruity Loops
-- Coreldraw
-- Phothoshop
+- FL Studio 
+- CorelDraw
+- Photoshop
 
 ---
+
+##  How I Work with AI
 
 I use AI to explore ideas, understand technical problems, review implementations, and speed up development.
 
-However, I believe understanding why something works is just as important as getting it to work.
+However, I believe understanding *why* something works is just as important as getting it to work.
 
 ---
+
+##  My Philosophy
 
 I'm a business owner who enjoys technology, a music producer who loves creativity, and a developer who is still learning every day.
 
@@ -82,17 +82,3 @@ I believe meaningful progress comes from curiosity, consistency, and the willing
 I'm always open to learning, sharing ideas, exploring collaborations, and building something useful together.
 
 Thanks for visiting my GitHub profile!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
