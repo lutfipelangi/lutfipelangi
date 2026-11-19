@@ -30,6 +30,7 @@ As a music producer, I'm also interested in building music-related digital produ
 - Astro
 - JavaScript
 - Next.js
+- React
 - Python
 - Tailwind CSS
 
