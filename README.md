@@ -1,4 +1,52 @@
 
+# 👋 Hello, I'm MASPEL
+
+### Entrepreneur • Music Producer • Web Developer
+
+Saya seorang pebisnis dan kreator yang memiliki ketertarikan pada dunia teknologi, musik, dan pengembangan digital.
+
+Saya senang membangun sesuatu, mencoba ide baru, dan mempelajari bagaimana teknologi dapat membantu menyelesaikan berbagai persoalan dalam kehidupan maupun bisnis.
+
+Saat ini saya banyak mengeksplorasi pengembangan web, produksi musik, serta pemanfaatan Artificial Intelligence (AI) untuk mendukung proses kreatif dan produktivitas.
+
+### 🚀 What I Do
+
+- 💼 **Entrepreneur** — Membangun dan mengembangkan usaha serta berbagai ide bisnis.
+- 🎵 **Music Producer** — Berkarya dalam produksi musik dan eksplorasi suara.
+- 💻 **Web Developer** — Mengembangkan website dan aplikasi berbasis web.
+- 🤖 **AI Enthusiast** — Mengeksplorasi teknologi AI untuk membantu proses belajar dan berkarya.
+
+### 🛠️ Technologies & Tools
+
+- **Languages:** JavaScript, Python
+- **Frameworks:** Next.js
+- **Environment:** Linux
+- **Tools:** Git, GitHub, AI Tools
+
+### 🎧 Beyond Coding
+
+Bagi saya, teknologi bukan hanya tentang menulis kode. Teknologi adalah alat untuk menciptakan peluang, mengembangkan kreativitas, dan membangun sesuatu yang bermanfaat.
+
+Saya percaya bahwa belajar tidak harus selalu dimulai dengan mengetahui segalanya. Terkadang, cukup dengan rasa ingin tahu, kemauan mencoba, dan keberanian untuk terus berkembang.
+
+### 🌱 A Little Note
+
+Saya bukan orang yang tahu segalanya. Masih banyak hal yang perlu dipelajari dan diperbaiki.
+
+Saya juga percaya bahwa AI bukan pengganti proses belajar, melainkan salah satu teman untuk mengeksplorasi ide, memahami hal baru, dan bekerja lebih baik.
+
+**Still learning. Still building. Still creating.**
+
+---
+
+*Thanks for stopping by. Semoga ada sesuatu yang bisa kita pelajari dan bangun bersama.* 🤝
+
+
+
+
+
+
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001a0b,50:00ff88,100:001a0b&height=180&section=header&text=MASPEL&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=CREATIVE%20DIGITAL%20%7C%20BUSINESS%20%7C%20OWNER&descAlignY=62&descSize=16" width="100%" alt="MASPEL neon header"/>
 
