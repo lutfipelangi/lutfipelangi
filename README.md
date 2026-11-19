@@ -10,7 +10,6 @@ My journey combines business experience, music production, and web development. 
 
 I don't always write every line of code from scratch. Instead, I focus on understanding system architecture, planning solutions, and using AI-assisted tools to help build and execute projects more effectively.
 
-For me, AI is a development partner, not a replacement for understanding and learning.
 
 ---
 
@@ -55,33 +54,18 @@ As a music producer, I'm also interested in building music-related digital produ
 - Cline
 - OpenCode
 - Hermes Agent
-- Open Claw
+- Cubase
+- Fruity Loops
+- Coreldraw
+- Phothoshop
 
 ---
-
-##  My Development Principles
-
-I believe a good website should be more than just visually appealing.
-
-My focus is on:
-
-- **Performance:** Fast-loading websites and efficient resource usage.
-- **SEO:** Search-engine-friendly structure and content.
-- **Accessibility:** Building inclusive websites with proper contrast, semantic HTML, and meaningful alt text.
-- **Maintainability:** Clean architecture and code that is easier to understand and improve.
-- **Cost Efficiency:** Choosing practical technologies and infrastructure without unnecessary expenses.
-
-
----
-
 
 I use AI to explore ideas, understand technical problems, review implementations, and speed up development.
 
 However, I believe understanding why something works is just as important as getting it to work.
 
 ---
-
-## My Philosophy
 
 I'm a business owner who enjoys technology, a music producer who loves creativity, and a developer who is still learning every day.
 
@@ -99,7 +83,7 @@ I'm always open to learning, sharing ideas, exploring collaborations, and buildi
 
 Thanks for visiting my GitHub profile!
 
-*Made with curiosity, creativity, and a little help from AI.* 
+
 
 
 
