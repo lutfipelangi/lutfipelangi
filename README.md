@@ -1,6 +1,6 @@
 #  Hi, I'm MASPEL
 
-### Founder · Developer · Music Producer
+### Founder · Developer · Producer
 
 I'm an entrepreneur, creative thinker, and technology enthusiast who enjoys building things across business, music, and digital technology.
 
