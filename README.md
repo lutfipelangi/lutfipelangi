@@ -2,7 +2,7 @@
 
 #  Hi, I'm MASPEL
 
-### Founder · AI-Assisted Web Developer · Music Producer
+### Founder ·  Web Developer · Music Producer
 
 I'm an entrepreneur, creative thinker, and technology enthusiast who enjoys building things across business, music, and digital technology.
 
@@ -24,12 +24,12 @@ Currently working on developing its digital presence and building a website to s
 ###  Online Media Portal
 Exploring the development of a multi-author publishing platform where journalists can independently log in, write articles, and upload images.
 
-### 🎵 Music Tech
+### Music Tech
 As a music producer, I'm also interested in building music-related digital products, including interactive audio players, beat stores, and other creative music platforms.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Frontend & Development**
 - Astro
@@ -45,8 +45,8 @@ As a music producer, I'm also interested in building music-related digital produ
 - Row Level Security (RLS)
 
 **Infrastructure & Deployment**
-- Cloudflare Pages
-- Cloudflare R2
+- Cloudflare 
+- Vercel
 - Linux
 
 **Tools & Workflow**
@@ -54,8 +54,8 @@ As a music producer, I'm also interested in building music-related digital produ
 - VS Code
 - Cline
 - OpenCode
-- Hermes
-- DeepSeek AI
+- Hermes Agent
+- Open Claw
 
 ---
 
@@ -71,19 +71,9 @@ My focus is on:
 - **Maintainability:** Clean architecture and code that is easier to understand and improve.
 - **Cost Efficiency:** Choosing practical technologies and infrastructure without unnecessary expenses.
 
-I pay particular attention to Lighthouse and PageSpeed Insights, especially accessibility, with a goal of achieving a 100 accessibility score whenever practical.
 
 ---
 
-## 🤖 AI-Assisted Development
-
-AI has become an important part of my development workflow.
-
-Some of the tools I explore include:
-
-- DeepSeek Web — Early discussions, technical exploration, and design references.
-- DeepSeek API — AI-assisted coding and implementation.
-- Cline, OpenCode, and Hermes — Working with AI coding agents in the terminal and development environment.
 
 I use AI to explore ideas, understand technical problems, review implementations, and speed up development.
 
